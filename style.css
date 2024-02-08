@@ -535,8 +535,7 @@ body {
   align-items: center;
   display: none;
   position: relative;
-  top: 300%;
-  appearance: none;
+  bottom: -150px;
   background-color: #fff;
   border-radius: 24px;
   border-style: none;
@@ -547,7 +546,7 @@ body {
   cursor: pointer;
   fill: currentcolor;
   font-family: "Google Sans", Roboto, Arial, sans-serif;
-  font-size: 14px;
+  font-size: 10px;
   font-weight: 500;
   height: 48px;
   justify-content: center;
@@ -555,23 +554,18 @@ body {
   line-height: normal;
   max-width: 100%;
   overflow: visible;
-  padding: 2px 24px;
+  padding: 2px 50px;
   left: 50%;
   transform: translate(-50%);
-  position: relative;
   text-align: center;
   text-transform: none;
   transition: box-shadow 280ms cubic-bezier(0.4, 0, 0.2, 1),
     opacity 15ms linear 30ms, transform 270ms cubic-bezier(0, 0, 0.2, 1) 0ms;
   user-select: none;
-  -webkit-user-select: none;
-  touch-action: manipulation;
   width: auto;
-  will-change: transform, opacity;
   font-family: cursive;
   z-index: 0;
 }
-
 .button-17:hover {
   background: #f6f9fe;
   color: #174ea6;
