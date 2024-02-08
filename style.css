@@ -23,6 +23,7 @@
 html,
 body {
   height: 100%;
+
 }
 
 html {
@@ -518,7 +519,6 @@ body {
 }
 .shadow {
   height: 30px;
-  position: absolute;
   width: 160px;
   top: 250%;
   border-radius: 50%;
