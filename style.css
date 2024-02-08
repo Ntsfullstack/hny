@@ -518,6 +518,7 @@ body {
   width: 20px;
 }
 .shadow {
+  position: absolute;
   height: 30px;
   width: 160px;
   top: 250%;
@@ -533,7 +534,7 @@ body {
 .button-17 {
   align-items: center;
   display: none;
-  position: absolute;
+  position: relative;
   top: 300%;
   appearance: none;
   background-color: #fff;
