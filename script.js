@@ -2391,10 +2391,13 @@ let sentenceID = 0
 
 const sentences = [
   {
-    sentence: "Dear Tuyet Anh",
+    sentence: "Dear Tuyết Anh",
   },
   {
-    sentence: "Chúc mừng năm mới! Mong rằng năm nay sẽ đưa đến cho cậu những khoảnh khắc đáng nhớ, những niềm vui bất ngờ và nhiều hạnh phúc bên những người thân yêu.",
+    sentence: "Năm cũ sắp qua đi, chúc cậu sẽ sớm buông bỏ được những nỗi buồn, những tâm sự trong lòng mình và bắt đầu một năm mới thật nhiều điều mới mẻ, thật bình yên và thật vui tươi nhé.",
+  },
+  {
+    sentence: "Bạn nhỏ, chúc cậu tất cả !",
   },
   {
     sentence: "Thân gửi",
