@@ -2391,7 +2391,7 @@ let sentenceID = 0
 
 const sentences = [
   {
-    sentence: "Dear Tuyết Anh",
+    sentence: "Dear Đỗ Thơm",
   },
   {
     sentence: "Năm cũ sắp qua đi, chúc cậu sẽ sớm buông bỏ được những nỗi buồn, những tâm sự trong lòng mình và bắt đầu một năm mới thật nhiều điều mới mẻ, thật bình yên và thật vui tươi nhé.",

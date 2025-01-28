@@ -1,4 +1,3 @@
-
 * {
   padding: 0;
   margin: 0 auto;
@@ -53,32 +52,32 @@ body {
   top: 0px;
   right: 50%;
   transform-origin: 100% 100%;
-  border: solid #555 2px;
+  /* border: solid #555 2px; */
   background-size: 420px 300px;
   background-position: center;
   transform-style: preserve-3d;
 }
 .page:nth-child(1) {
-  transform: rotateX(52deg) rotateY(3deg);
+  transform: rotateX(52deg) rotateY(1deg);
 }
 .page:nth-child(2) {
-  transform: rotateX(52deg) rotateY(4.5deg);
+  transform: rotateX(52deg) rotateY(1.5deg);
 }
 .page:nth-child(3) {
-  transform: rotateX(52deg) rotateY(6deg);
+  transform: rotateX(52deg) rotateY(2deg);
   -webkit-animation: nextPage 25s infinite -24s steps(1);
           animation: nextPage 25s infinite -24s steps(1);
   background-size: 420px 300px;
   background-position: -2px -2px;
 }
 .page:nth-child(4) {
-  transform: rotateX(52deg) rotateY(177deg);
+  transform: rotateX(52deg) rotateY(179deg);
 }
 .page:nth-child(5) {
-  transform: rotateX(52deg) rotateY(175.5deg);
+  transform: rotateX(52deg) rotateY(178.5deg);
 }
 .page:nth-child(6) {
-  transform: rotateX(52deg) rotateY(174deg);
+  transform: rotateX(52deg) rotateY(178deg);
   overflow: hidden;
 }
 .page:nth-child(6)::after {
@@ -139,8 +138,8 @@ body {
   top: 0px;
   transform-origin: 100% 100%;
   right: 100%;
-  border: solid #555;
-  border-width: 2px 0px;
+  /* border: solid #555;
+  border-width: 2px 0px; */
   perspective: 4200px;
   perspective-origin: center;
   transform-style: preserve-3d;
@@ -208,10 +207,10 @@ body {
 
 @keyframes flip1 {
   0%, 20% {
-    transform: rotateX(52deg) rotateY(6deg);
+    transform: rotateX(52deg) rotateY(2deg);
   }
   80%, 100% {
-    transform: rotateX(52deg) rotateY(174deg);
+    transform: rotateX(52deg) rotateY(178deg);
   }
 }
 @-webkit-keyframes flip2 {
